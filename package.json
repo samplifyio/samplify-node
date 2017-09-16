@@ -1,0 +1,26 @@
+{
+  "name": "samplify-node",
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samplifyio/samplify-node.git"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "Fire In Belly Ltd.",
+  "license": "MIT",
+  "homepage": "https://samplify.io",
+  "description": "Node wrapper for Samplify APIs",
+  "dependencies": {
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "query-string": "^5.0.0"
+  }
+}
