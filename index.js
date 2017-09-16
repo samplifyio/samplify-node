@@ -1,1 +1,1 @@
-module.exports = require('./src/samplify');
+module.exports = require('./lib/samplify');
