@@ -46,7 +46,7 @@ class Samplify {
             (path[0] === '/' ? '' : '/') +
             path +
             (path[path.length - 1] === '/' ? '' : '/') +
-            (queryString ? '?' : '');
+            (queryString ? `?${queryString}` : '');
     }
 
     get(path, parameters) {
