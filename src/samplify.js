@@ -25,6 +25,7 @@ class Samplify {
     getHeaders() {
         var headers = {
             'User-Agent': 'samplify-node ' + packageInfo.version,
+            'Accept': 'application/json'
         };
 
         if (this.token) {
