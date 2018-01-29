@@ -44,7 +44,7 @@ class Samplify {
 
     packPath(path, queryString) {
         return this.apiBase +
-            (path[0] === '/' ? '' : '/') +
+            (path[0] === '/' || path.indexOf('?') > -1 ? '' : '/') +
             path +
             (path[path.length - 1] === '/' ? '' : '/') +
             (queryString ? `?${queryString}` : '');
