@@ -2,7 +2,7 @@ const packageInfo = require('../package.json');
 const request = require('request-promise');
 const queryString = require('query-string');
 
-const DEFAULT_API_BASE = 'https://samplify.io/api/v1';
+const DEFAULT_API_BASE = 'https://deprecated-api.kipwise.com/api/v1';
 
 class Samplify {
 
